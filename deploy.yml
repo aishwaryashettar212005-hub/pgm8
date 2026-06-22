@@ -4,7 +4,7 @@
   tasks:
   - name: copy JAR file
     copy:
-     src: /var/lib/jenkins/workspace/prgm8/maven-example/target/maven-example-1.0-SNAPSHOT.jar
+     src: /var/lib/jenkins/workspace/pgm8/maven-example/target/maven-example-1.0-SNAPSHOT.jar
      dest: /opt/maven-example-1.0-SNAPSHOT.jar
      
   - name: Run application
